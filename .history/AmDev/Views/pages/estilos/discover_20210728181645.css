@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height:100%;
+	background: rgb(20, 18, 18);
+
+}
+
+section{
+    position: fixed;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}

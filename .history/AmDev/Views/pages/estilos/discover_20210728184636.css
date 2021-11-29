@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height:100%;
+	background: rgb(20, 18, 18);
+
+}
+
+section{
+    position: fixed;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 72px;
+    padding: 0 30px;
+    background: rgb(32, 32, 36);
+    top: 0px;
+    z-index: 9998;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: rgb(18 18 20) 0px 1rem 2rem;
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+}
+
+.logo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: left;
+    z-index: 2;
+}
+
+.bemvindo{
+    color: white;
+}
+
+.bemvindo span{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao-menu{
+    display: block;
+    position: relative;
+    margin-left: 48px;
+}
+
+.botao{
+    position: relative;
+    width: 24px;
+    height: 32px;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.perfil img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+    border: 2px solid rgb(235, 116, 4);
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+
